@@ -2,8 +2,7 @@
 """
 A falta de soporte Paired End en deconseq, me lo invento
 Se llama desde deconseqPE.sh
-Se elimina de un archivo Paired-End F o R los reads que no estuvieran en su pareja. Ha de pasarsele un archivo con las cabeceras de los reads a conservar (creado por ejemplo con grep). Solo la parte común a ambos pares de reads.
-
+Se elimina de un archivo Paired-End F o R los reads que no estuvieran en su pareja. Ha de pasarsele un archivo con las cabeceras de los reads a conservar (creado por ejemplo con grep). Solo la parte comun a ambos pares de reads.
 """
 import sys
 
